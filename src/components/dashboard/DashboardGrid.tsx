@@ -92,12 +92,12 @@ export const DashboardGrid: React.FC<DashboardGridProps> = ({ onButtonClick }) =
       hoverColor: 'hover:from-red-600 hover:to-red-700'
     },
     {
-      id: 'powercycle-vs-barre',
-      title: 'PowerCycle vs Barre',
-      description: 'Comparative analysis of PowerCycle, Barre, and Strength classes',
-      icon: Activity,
-      color: 'from-violet-500 to-violet-600',
-      hoverColor: 'hover:from-violet-600 hover:to-violet-700'
+  id: 'powercycle-vs-barre',
+  title: 'PowerCycle vs Barre vs Strength',
+  description: 'Comparative analysis of PowerCycle, Barre, and Strength classes',
+  icon: Activity,
+  color: 'from-violet-500 to-violet-600',
+  hoverColor: 'hover:from-violet-600 hover:to-violet-700'
     }
   ];
 
