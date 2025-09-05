@@ -100,12 +100,13 @@ export const usePayrollData = () => {
         totalPaid: parseNumericValue(row[23]),
 
         monthYear: row[24] || '',
-        uniqueKey: row[25] || '',
+        unique: row[25] || '',
         converted: parseNumericValue(row[26]),
-        conversionRate: parseNumericValue(row[27]),
+        conversion: row[27] || '',
         retained: parseNumericValue(row[28]),
-        retentionRate: parseNumericValue(row[29]),
-        newCustomers: parseNumericValue(row[30]),
+        retention: row[29] || '',
+        new: parseNumericValue(row[30]),
+        // If you have classAverageInclEmpty/classAverageExclEmpty columns, map them here as well
       }));
 
       setData(payrollData);
