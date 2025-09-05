@@ -16,7 +16,6 @@ import ClassAttendance from "./pages/ClassAttendance";
 import DiscountsPromotions from "./pages/DiscountsPromotions";
 import Sessions from "./pages/Sessions";
 import PowerCycleVsBarre from "./pages/PowerCycleVsBarre";
-import PowerCycleVsBarre from "./pages/PowerCycleVsBarre";
 import LateCancellations from "./pages/LateCancellations";
 import NotFound from "./pages/NotFound";
 
