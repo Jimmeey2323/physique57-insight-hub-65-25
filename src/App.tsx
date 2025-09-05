@@ -39,7 +39,6 @@ const App = () => (
           <Route path="/discounts-promotions" element={<DiscountsPromotions />} />
           <Route path="/sessions" element={<Sessions />} />
           <Route path="/powercycle-vs-barre" element={<PowerCycleVsBarre />} />
-          <Route path="/powercycle-vs-barre" element={<PowerCycleVsBarre />} />
           <Route path="/late-cancellations" element={<LateCancellations />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
